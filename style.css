@@ -1002,7 +1002,6 @@ a {
   text-align: center;
 }
 
-/* Mobile adjustments */
 @media (max-width: 640px) {
   .employee-section {
     padding: 70px 0;
@@ -1013,7 +1012,8 @@ a {
   }
 
   .employee-card img {
-    height: 220px;
+    height: auto;
+    object-fit: contain;
   }
 }
 
